@@ -132,3 +132,22 @@ h2 {
   width: 200px;
   margin-top: -10px;
 }
+@media screen and (max-width: 300px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+  }
+  .minicontainer2,
+  .firstmiddle,
+  .bottom,
+  .onebottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading {
+    margin-left: -600px;
+  }
+}
